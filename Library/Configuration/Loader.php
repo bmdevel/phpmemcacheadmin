@@ -201,10 +201,7 @@ class Library_Configuration_Loader
      */
     public function write()
     {
-        if($this->check())
-        {
-            return is_numeric(file_put_contents(self::$_iniPath, '<?php' . PHP_EOL . 'return ' . var_export(self::$_ini, true) . ';'));
-        }
+        // We do not want to have files written to our webservers - we keep the config for this tool under version control
         return false;
     }
 }
