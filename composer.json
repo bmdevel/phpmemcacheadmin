@@ -1,9 +1,9 @@
 {
-    "name": "wp-cloud/phpmemcacheadmin",
+    "name": "bmdevel/phpmemcacheadmin",
     "type": "application",
     "description": "Graphic stand-alone administration for memcached to monitor and debug purpose",
     "keywords": ["phpmemcacheadmin","memcache","memcached","web"],
-    "homepage": "https://github.com/wp-cloud/phpmemcacheadmin",
+    "homepage": "https://github.com/bmdevel/phpmemcacheadmin",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -15,12 +15,17 @@
             "name": "Christian Foellmann",
             "email": "foellmann@foe-services.de",
             "homepage": "http://christian.foellmann.de/"
+        },
+        {
+            "name": "Thomas Kolar",
+            "email": "kolar@billiger-mietwagen.de",
+            "homepage": "http://www.billiger-mietwagen.de/"
         }
     ],
     "support": {
-        "issues": "https://github.com/wp-cloud/phpmemcacheadmin/issues",
-        "wiki": "https://github.com/wp-cloud/phpmemcacheadmin/wiki",
-        "source": "https://github.com/wp-cloud/phpmemcacheadmin"
+        "issues": "https://github.com/bmdevel/phpmemcacheadmin/issues",
+        "wiki": "https://github.com/bmdevel/phpmemcacheadmin/wiki",
+        "source": "https://github.com/bmdevel/phpmemcacheadmin"
     },
     "require": {
         "php": ">=5.3.0"
