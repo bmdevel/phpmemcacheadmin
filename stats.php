@@ -153,7 +153,7 @@ switch($request)
         }
 
         # Saving first stats dump
-        file_put_contents($file_path, serialize($stats));
+        //file_put_contents($file_path, serialize($stats));
 
         # Searching for connection error, adding some time to refresh rate to prevent error
         $refresh_rate = max($_ini->get('refresh_rate'), count($_ini->cluster($cluster)) * 0.25 + (Library_Data_Error::count() * (0.5 + $_ini->get('connection_timeout'))));
