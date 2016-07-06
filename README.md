@@ -2,8 +2,8 @@
 > Graphic stand-alone administration for memcached to monitor and debug purpose
 
 [![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Packagist](https://img.shields.io/packagist/v/bmdevel/phpmemcacheadmin.svg)](https://packagist.org/packages/wp-cloud/phpmemcacheadmin)
-[![GitHub tag](https://img.shields.io/github/tag/bmdevel/phpmemcacheadmin.svg)](https://github.com/wp-cloud/phpmemcacheadmin/releases)
+[![Packagist](https://img.shields.io/packagist/v/bmdevel/phpmemcacheadmin.svg)](https://packagist.org/packages/bm-devel/phpmemcacheadmin)
+[![GitHub tag](https://img.shields.io/github/tag/bmdevel/phpmemcacheadmin.svg)](https://github.com/bm-devel/phpmemcacheadmin/releases)
 
 ## License: _[Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0)_
 
