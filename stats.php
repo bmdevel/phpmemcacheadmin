@@ -88,7 +88,7 @@ switch($request)
     # Ajax ask : stats
     case 'live_stats':
         # Opening old stats dump
-        $previous = @unserialize(file_get_contents($file_path));
+        //$previous = @unserialize(file_get_contents($file_path));
 
         # Initializing variables
         $actual = array();
@@ -137,7 +137,7 @@ switch($request)
         }
 
         # Saving new stats dump
-        file_put_contents($file_path, serialize($actual));
+        //file_put_contents($file_path, serialize($actual));
 
         # Showing stats
         include 'View/LiveStats/Stats.phtml';
