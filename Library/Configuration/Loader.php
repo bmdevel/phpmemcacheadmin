@@ -17,7 +17,7 @@ class Library_Configuration_Loader
     protected static $_instance = null;
 
     # Configuration file
-    protected static $_iniPath = '../../../config/phpmemcacheadmin.php';
+    protected static $_iniPath = '../../../Frontend/car/config/phpmemcacheadmin.php';
 
     # Configuration needed keys
     protected static $_iniKeys = array('stats_api',
