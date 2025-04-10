@@ -17,7 +17,7 @@ class Library_Configuration_Loader
     protected static $_instance = null;
 
     # Configuration file
-    protected static $_iniPath = '../../../Frontend/car/config/phpmemcacheadmin.php';
+    protected static $_iniPath = __DIR__ . '../../../config/phpmemcacheadmin.php';
 
     # Configuration needed keys
     protected static $_iniKeys = array('stats_api',
@@ -76,7 +76,7 @@ class Library_Configuration_Loader
     {
         # Opening ini file
         if ( file_exists( self::$_iniPath ) ) {
-            self::$_ini = require self::$_iniPath;
+            self::$_ini = require realpath(self::$_iniPath);
         } else {
             self::$_ini = self::$_iniStdArray;
         }
